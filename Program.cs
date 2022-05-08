@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Basic Core Programs in C-Sharp");
             Console.WriteLine("");
-            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " + "\n4.Harmonic Number \n5.Factors \n6.Program to Compute Quotient and Remainder \n7.Program to Swap Two Numbers");
+            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " + "\n4.Harmonic Number \n5.Factors \n6.Program to Compute Quotient and Remainder \n7.Program to Swap Two Numbers \n8.Program to Check Whether a Number is Even or Odd");
             
             Console.Write("\nPlease Enter Your Option to choose the program to execute : ");
 
@@ -51,6 +51,11 @@ namespace BasicCorePrograms
                     //// create swapObj class object to access SwapNumbers class. 
                     SwapNumbers swapObj = new SwapNumbers();
                     swapObj.swapLogic();
+                    break;
+                case 8:
+                    // create checkObj class object to access CheckEvenOdd class.
+                    CheckEvenOdd checkObj = new CheckEvenOdd();
+                    checkObj.evenOddLogic();
                     break;
                 default:
                     Console.WriteLine("Wrong option/entry, please enter option again.");
