@@ -8,7 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Basic Core Programs in C-Sharp");
             Console.WriteLine("");
-            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " + "\n4.Harmonic Number \n5.Factors \n6.Program to Compute Quotient and Remainder \n7.Program to Swap Two Numbers \n8.Program to Check Whether a Number is Even or Odd\n9.Program to Check Whether an Alphabet is Vowel or Consonant");
+            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " + "\n4.Harmonic Number \n5.Factors \n6.Program to Compute Quotient and Remainder \n7.Program to Swap Two Numbers \n8.Program to Check Whether a Number is Even or Odd\n9.Program to Check Whether an Alphabet is Vowel or Consonant\n10.Program to Find the Largest Among Three Numbers");
             
             Console.Write("\nPlease Enter Your Option to choose the program to execute : ");
 
@@ -61,6 +61,11 @@ namespace BasicCorePrograms
                     // create vowelConsonantCheck class object to access VowelConsonantCheck class.
                     VowelConsonantCheck vowelConsonantCheck = new VowelConsonantCheck();
                     vowelConsonantCheck.vowelCheck();
+                    break;
+                case 10:
+                    // create largestNumObj class object to access LargestNumber class.
+                    LargestNumber largestNumObj = new LargestNumber();
+                    largestNumObj.numberCheckLogic();
                     break;
                 default:
                     Console.WriteLine("Wrong option/entry, please enter option again.");
