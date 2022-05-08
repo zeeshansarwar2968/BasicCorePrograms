@@ -8,8 +8,10 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Basic Core Programs in C-Sharp");
             Console.WriteLine("");
-            CoinFlipper coinFlipper = new CoinFlipper();
-            coinFlipper.coinFlipLogic();
+            //CoinFlipper coinFlipper = new CoinFlipper();
+            //coinFlipper.coinFlipLogic();
+            LeapYear leapYear = new LeapYear();
+            leapYear.leapYearLogic();
             Console.ReadKey();
         }
     }
