@@ -8,8 +8,7 @@ namespace BasicCorePrograms
         {
             Console.WriteLine("Basic Core Programs in C-Sharp");
             Console.WriteLine("");
-            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " +
-                    "\n4.Harmonic Number \n5.Factors");
+            Console.WriteLine("1.Flip Coin and print percentage of Heads and Tails \n2.Leap Year \n3.Power of 2 " + "\n4.Harmonic Number \n5.Factors");
             
             Console.Write("\nPlease Enter Your Option to choose the program to execute : ");
 
@@ -44,7 +43,7 @@ namespace BasicCorePrograms
                     primeFactors.factorsLogic();
                     break;                
                 default:
-                    Console.WriteLine("Wrong option! please enter option again.");
+                    Console.WriteLine("Wrong option/entry, please enter option again.");
                     break;
             }
 
