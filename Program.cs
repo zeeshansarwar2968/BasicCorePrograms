@@ -14,10 +14,8 @@ namespace BasicCorePrograms
             Console.WriteLine("\t\t\t\t Please enter 0 to exit");
             Console.WriteLine("");
 
-
-            
-
             int flag = 0;
+
             while (flag == 0)
             {
                 Console.Write("\nPlease Enter Your Option to choose the program to execute : ");
