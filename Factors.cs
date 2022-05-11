@@ -15,7 +15,7 @@ namespace BasicCorePrograms
             int inputNum = Convert.ToInt32(Console.ReadLine());
 
             
-            Console.Write("Factors= 1");
+            Console.Write("Factors= 1 ");
             //Logic to print out prime factors for the given number
             for (int i = 2; i * i <= inputNum; i++)
             {                                                                     
